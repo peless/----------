@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="neframor.master.cs" Inherits="neframor" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+
+    
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div><img src="images/logo%20copy.jpg" /></div> 
+       
+ <div id='cssmenu'>
+<ul>
+   <li class='active '><a href='#'><span>מטופלים</span></a></li>
+   <li class='has-sub '><a href='#'><span>רכש</span></a>
+      <ul>
+         <li><a href='#'><span>Product 1</span></a></li>
+         <li><a href='#'><span>Product 2</span></a></li>
+      </ul>
+   </li>
+   <li><a href='#'><span>כספים</span></a></li>
+   <li><a href='#'><span>מכונות</span></a></li>
+   <li><a href='#'><span>דוחות</span></a></li>
+</ul>
+</div>
+
+</div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+   </asp:ContentPlaceHolder>
+      
+        
+        
+        
+          
+
+    </form>
+</body>
+</html>
